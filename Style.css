@@ -181,3 +181,58 @@ section{
     margin-bottom: 0px;
 }
 
+.connect{
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0px;
+}
+
+.connect-title{
+    font-size: 97px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.form label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.form input{
+    width: 497px;
+    font-size: 20px;
+    padding: 20px 32px;
+    background-color: white;
+    border: 1px solid rgba(210, 210, 210, 0.5);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.form textarea{
+    width: 497px;
+    font-size: 20px;
+    padding: 20px 32px;
+    background-color: white;
+    border: 1px solid rgba(210, 210, 210, 0.5);
+    border-radius: 10px;
+    resize: vertical;
+    height: 135px;
+    margin-bottom: 15px;
+}
+
+.form button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(78, 71, 255, 1);
+    padding: 12px 26px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
