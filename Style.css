@@ -32,18 +32,18 @@ nav ul{
     padding: 50px 0px;
 }
 
-nav ul li{
+ul li{
     list-style: none;
 }
 
-nav ul li a{
+ul li a{
     text-decoration: none;
 }
 
 .logo{
     font-size: 34px;
     font-weight:bolder;
-    text-decoration-color: rgba(78, 71, 255, 1);
+    color: rgba(78, 71, 255, 1);
 }
 
 .btn{
@@ -235,4 +235,42 @@ section{
 
 .form button:hover {
     background-color: #0056b3;
+}
+
+.footer{
+    background-color: white;
+    padding: 103px 454px;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgba(78, 71, 255, 1);
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.footer-des{
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.footer-nav{
+    padding: 0px 65px;
+}
+
+footer ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 48px;
+}
+
+.footer-des, .footer-nav{
+    color: rgba(137, 135, 161, 1);
+}
+
+.footer li a{
+    color: rgba(137, 135, 161, 1);
 }
