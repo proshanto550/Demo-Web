@@ -1,3 +1,4 @@
+/* Raleway Font */
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -6,6 +7,7 @@
     "wdth" 100;
 }
 
+/* Inter font */
 .open-sans-inter {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -22,6 +24,7 @@ header{
     background-image: url(Assets/Hero-bg.png);
 }
 
+/* Nav Bar Style */
 nav{
     padding: 0px 150px;
 }
@@ -46,7 +49,9 @@ ul li a{
     color: rgba(78, 71, 255, 1);
 }
 
+/* Button  Style */
 .btn{
+    
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -54,8 +59,19 @@ ul li a{
     padding: 12px 26px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
+/* hover effect all button */
+.btn:hover, .form button:hover{
+    background: linear-gradient(to right, #ff12dc, #FFB912);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 30px 0px #ff1255;
+    transform: scale(1.03);
+}
+
+
+/* Banner Style */
 .banner{
     padding: 152px 267px;
     align-items: center;
@@ -68,12 +84,14 @@ ul li a{
     color: rgba(37, 36, 50, 1);
 }
 
+/* Universal Style for Section */
 section{
     margin-top: 116px;
     margin-left: 141px;
     margin-right: 159px;
 }
 
+/* Action Section */
 .action{
     display: flex;
     justify-content: space-between;
@@ -99,6 +117,7 @@ section{
     border-radius: 48px;
 }
 
+/* User Description Section */
 .user{
     border: none;
     border-radius: 24px;
@@ -133,6 +152,7 @@ section{
     font-size: 20px;
 }
 
+/* Rating Section */
 .rater-des{
     display: flex;
     justify-content: space-between;
@@ -177,10 +197,13 @@ section{
 }
 
 .date{
+    font-size: 16px;
     margin-top: 1px;
     margin-bottom: 0px;
+    color: #757575;
 }
 
+/* Connect Section */
 .connect{
     display: flex;
     justify-content: space-between;
@@ -193,11 +216,12 @@ section{
     align-items: center;
 }
 
+/* Form */
 .form label{
     display: block;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .form input{
@@ -223,20 +247,18 @@ section{
 }
 
 .form button{
+    display: block;
     width: 100%;
     font-size: 16px;
     font-weight: bold;
     color: white;
     background-color: rgba(78, 71, 255, 1);
-    padding: 12px 26px;
+    padding: 19px 101px;
     border-radius: 10px;
     border: none;
 }
 
-.form button:hover {
-    background-color: #0056b3;
-}
-
+/* Footer Style */
 .footer{
     background-color: white;
     padding: 103px 454px;
